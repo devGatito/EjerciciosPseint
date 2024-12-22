@@ -8,3 +8,10 @@ Proceso printWelloWord
     Escribir "Hola Mundo";
 FinProceso
 ```
+# Definición del Proceso:
+
+La palabra clave Proceso se utiliza para iniciar la definición de un proceso. En este caso, el proceso se llama printWelloWord.
+Instrucción ```Escribir: ```
+La función ```Escribir``` se usa para mostrar un mensaje en pantalla. En este caso, el mensaje es el texto ```"Hola Mundo".```
+# Finalización del Proceso:
+La palabra clave ```FinProceso``` indica el final del proceso.
