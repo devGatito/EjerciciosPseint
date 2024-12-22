@@ -8,14 +8,6 @@ Proceso printWelloWord
     Escribir "Hola Mundo";
 FinProceso
 ```
-# Definición del Proceso:
-
-La palabra clave Proceso se utiliza para iniciar la definición de un proceso. En este caso, el proceso se llama printWelloWord.
-Instrucción ```Escribir: ```
-La función ```Escribir``` se usa para mostrar un mensaje en pantalla. En este caso, el mensaje es el texto ```"Hola Mundo".```
-# Finalización del Proceso:
-La palabra clave ```FinProceso``` indica el final del proceso.
-
 # Ejercicio 2: Suma
 ```Proceso Suma
 	Definir a,b Como Entero;
@@ -44,7 +36,7 @@ FinProceso
 
 ```
 
-# Multiplicacion
+# Ejercicio 4: Multiplicacion
 ```Proceso Multiplicar
 	Definir a,b Como Entero;
 	Escribir "Ingresa el primer numero";
@@ -57,7 +49,7 @@ FinProceso
 	
 FinProceso
 ```
-# Dividir
+# Ejercicio 5: Dividir
 ```
 Proceso Dividir
 	Definir a,b Como Entero;
@@ -72,7 +64,7 @@ Proceso Dividir
 FinProceso
 ```
 
-# Elevar al Cuadrdado
+# Ejercicio 6:  Elevar al Cuadrdado
 
 ```Proceso cuadrdadoNumero
 	Definir a Como Entero;
@@ -86,7 +78,7 @@ FinProceso
 FinProceso
 ```
 
-# Ejercicio 7
+# Ejercicio 7: Saber si el numero es par o impar
 ```Proceso parImpar
 	Definir a Como Entero;
 	Escribir "Ingresa el numero a convertir a cuadrdado";
@@ -102,7 +94,7 @@ FinProceso
 	
 FinProceso
 ```
-# Ejercicio 8
+# Ejercicio 8: Sacar promedio de  numeros
 
 ```
 
@@ -148,3 +140,22 @@ Proceso promedio
 FinProceso
 
 ```
+
+# Ejercicio 9: Convertir grados Celcius a convertir
+
+```
+Proceso gradosCelius
+	Definir a,conv Como Real;
+	Escribir "Ingresa los grados Fareheit a Convertir";
+	Leer a;
+	
+	conv <- a * (9/5) + 32;
+	Escribir  "La conversion es", conv;
+	
+	
+	
+	
+FinProceso
+
+```
+# Ejercicio 10: Convertir grados Fareheit a convertir
